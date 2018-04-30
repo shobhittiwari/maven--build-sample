@@ -11,14 +11,14 @@
   <url>http://maven.apache.org</url>
 <distributionManagement>
   <repository>
-        <id>Releases</id>
+        <id>maven-releases</id>
         <name>releases</name>
-        <url>http://192.168.56.102:8081/nexus/content/repositories/releases/</url>
+        <url>http://192.168.56.101:8081/repository/maven-releases/</url>
     </repository>
 <snapshotRepository>
-        <id>Snapshots</id>
+        <id>maven-snapshots</id>
         <name>snapshots</name>
-        <url>http://192.168.56.102:8081/nexus/content/repositories/snapshots/</url>
+        <url>http://192.168.56.101:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 <properties>
