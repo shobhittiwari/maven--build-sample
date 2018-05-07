@@ -7,9 +7,7 @@
   <artifactId>CubeGenerator</artifactId>
   <packaging>jar</packaging>
   <version>4.0</version>
-   <build>
-    <finalName>$\{project.artifactId}-$\{project.version}-r$\{BUILD_NUMBER}r$\{GIT_BRANCH}</finalName>
-  </build>
+  
   <name>CubeGenerator</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
@@ -40,6 +38,8 @@
   </dependencies>
 
   <build>
+        <finalName>$\{project.artifactId}-$\{project.version}-r$\{BUILD_NUMBER}r$\{GIT_BRANCH}</finalName>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
