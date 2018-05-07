@@ -6,17 +6,17 @@
   <groupId>com.javatpoint</groupId>
   <artifactId>CubeGenerator</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-${BUILD_NUMBER}</version>
+  <version>1.0</version>
   <name>CubeGenerator</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
   <repository>
-        <id>maven-releases</id>
+        <id>Releases</id>
         <name>releases</name>
         <url>http://192.168.56.104:8081/nexus/content/repositories/releases/</url>
     </repository>
 <snapshotRepository>
-        <id>maven-snapshots</id>
+        <id>Snapshots</id>
         <name>snapshots</name>
         <url>http://192.168.56.104:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
