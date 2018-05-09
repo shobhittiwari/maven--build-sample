@@ -44,12 +44,7 @@
 
   <dependencies>
     
-    <dependency>
-      <groupId>com.foobar.templates</groupId>
-      <artifactId>maventemplate-jar</artifactId>
-      <version>${distversion}</version>
-      <type>jar</type>
-    </dependency>
+    
   
     <dependency>
        <groupId>junit</groupId>
