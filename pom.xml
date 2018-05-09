@@ -25,14 +25,14 @@
   
   <repositories>
     <repository>
-      <id>project</id>
+      <id>public</id>
       <url>http://192.168.56.104:8081/nexus/content/groups/public/</url>
     </repository>
   </repositories>
  
   <pluginRepositories>
     <pluginRepository>
-      <id>project</id>
+      <id>public</id>
       <url>http://192.168.56.104:8081/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
