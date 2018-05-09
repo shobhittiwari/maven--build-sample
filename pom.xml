@@ -6,7 +6,7 @@
   <groupId>com.javatpoint</groupId>
   <artifactId>CubeGenerator</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>2.0</version>
   <name>CubeGenerator</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
@@ -21,6 +21,21 @@
         <url>http://192.168.56.104:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
+  
+  
+  <repositories>
+    <repository>
+      <id>project</id>
+      <url>http://192.168.56.104:8081/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+ 
+  <pluginRepositories>
+    <pluginRepository>
+      <id>project</id>
+      <url>http://192.168.56.104:8081/nexus/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -28,8 +43,16 @@
   </properties>
 
   <dependencies>
+    <dependencies>
     <dependency>
-      <groupId>junit</groupId>
+      <groupId>com.foobar.templates</groupId>
+      <artifactId>maventemplate-jar</artifactId>
+      <version>${distversion}</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+    <dependency>
+       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
