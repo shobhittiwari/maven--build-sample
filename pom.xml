@@ -43,14 +43,14 @@
   </properties>
 
   <dependencies>
-    <dependencies>
+    
     <dependency>
       <groupId>com.foobar.templates</groupId>
       <artifactId>maventemplate-jar</artifactId>
       <version>${distversion}</version>
       <type>jar</type>
     </dependency>
-  </dependencies>
+  
     <dependency>
        <groupId>junit</groupId>
       <artifactId>junit</artifactId>
