@@ -21,9 +21,7 @@
         <url>http://192.168.56.104:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-  <properties>
-    <spring.version>3.0.5.RELEASE</spring.version>
-</properties>
+
   
   <repositories>
     <repository>
@@ -42,6 +40,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+  <spring.version>3.0.5.RELEASE</spring.version>
   </properties>
 
   <dependencies>
