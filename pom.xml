@@ -24,7 +24,14 @@
 
   
   <repositories>
-    <repository>
+   <repository>
+      <id>releases</id>
+      <url>http://192.168.56.104:8081/nexus/content/repositories/releases/</url>
+</repository>
+<repository>
+      <id>snapshots</id>
+      <url>http://192.168.56.104:8081/nexus/content/repositories/snapshots</url>
+</repository>  <repository>
       <id>public</id>
       <url>http://192.168.56.104:8081/nexus/content/groups/public/</url>
     </repository>
