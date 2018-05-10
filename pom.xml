@@ -12,7 +12,7 @@
 <distributionManagement>
   <repository>
         <id>releases</id>
-        <name>test</name>
+        <name>Releases</name>
         <url>http://192.168.56.101:8081/nexus/content/repositories/releases</url>
     </repository>
 </distributionManagement>
