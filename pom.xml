@@ -11,23 +11,23 @@
   <url>http://maven.apache.org</url>
 <distributionManagement>
   <repository>
-        <id>test</id>
+        <id>releases</id>
         <name>test</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/test</url>
+        <url>http://192.168.56.101:8081/nexus/content/repositories/releases</url>
     </repository>
 </distributionManagement>
 
   
   <repositories>
    <repository>
-      <id>test</id>
+      <id>releases</id>
       <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
 </repository>
  </repositories>
  
   <pluginRepositories>
     <pluginRepository>
-      <id>test</id>
+      <id>releases</id>
       <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
