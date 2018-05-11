@@ -13,25 +13,25 @@
   <repository>
         <id>releases</id>
         <name>releases</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/releases/</url>
+        <url>scp://192.168.56.101:8081/nexus/content/repositories/releases/</url>
     </repository>
 <snapshotRepository>
         <id>snapshots</id>
         <name>snapshots</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
+        <url>scp://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
 <repositories>
     <repository>
-      <id>releases</id>
+      <id>project</id>
       <url>scp://192.168.56.101:8081/nexus/content/groups/public/</url>
     </repository>
   </repositories>
  
   <pluginRepositories>
     <pluginRepository>
-      <id>releases</id>
+      <id>project</id>
       <url>scp://192.168.56.101:8081/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
