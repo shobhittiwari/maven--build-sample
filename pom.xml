@@ -84,22 +84,7 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>wagon-maven-plugin</artifactId>
         <version>2.0.0</version>
-        <executions>
-          <execution>
-            <id>download-test-data</id>
-            <phase>pre-integration-test</phase>
-            <goals>
-              <goal>download</goal>
-            </goals>
-            <configuration>
-              <serverId>releases</serverId>
-              <url>dav:http://192.168.56.101:8081/nexus/content/groups/public/</url>
-              <fromDir>com/javatpoint/CubeGenerator/1.0</fromDir>
-              <toDir>jar</toDir>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+         </plugin>
         <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
