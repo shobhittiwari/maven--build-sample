@@ -18,7 +18,7 @@
 <snapshotRepository>
         <id>snapshots</id>
         <name>snapshots</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
+        <url>scp://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
