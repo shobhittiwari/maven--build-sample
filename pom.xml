@@ -24,14 +24,14 @@
 
 <repositories>
     <repository>
-      <id>project</id>
+      <id>releases</id>
       <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
     </repository>
   </repositories>
  
   <pluginRepositories>
     <pluginRepository>
-      <id>project</id>
+      <id>releases</id>
       <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
