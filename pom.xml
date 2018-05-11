@@ -27,6 +27,19 @@
       <id>releases</id>
       <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
     </repository>
+  
+   <repository>
+        <id>central</id>
+        <url>http://nexus.sonatype.org</url>  
+        <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
   </repositories>
  
   <pluginRepositories>
