@@ -13,12 +13,12 @@
   <repository>
         <id>releases</id>
         <name>releases</name>
-        <url>scp://192.168.56.101:8081/nexus/content/repositories/releases/</url>
+        <url>http://192.168.56.101:8081/nexus/content/repositories/releases/</url>
     </repository>
 <snapshotRepository>
         <id>snapshots</id>
         <name>snapshots</name>
-        <url>scp://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
+        <url>http://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
@@ -59,7 +59,7 @@
         <extensions>
         <extension>
             <groupId>org.apache.maven.wagon</groupId>
-            <artifactId>wagon-ssh</artifactId>
+            <artifactId>wagon-http</artifactId>
             <version>2.10</version>
         </extension>
     </extensions>
