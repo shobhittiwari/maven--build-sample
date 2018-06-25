@@ -9,46 +9,7 @@
   <version>1.0</version>
   <name>CubeGenerator</name>
   <url>http://maven.apache.org</url>
-<distributionManagement>
-  <repository>
-        <id>releases</id>
-        <name>releases</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/releases/</url>
-    </repository>
-<snapshotRepository>
-        <id>snapshots</id>
-        <name>snapshots</name>
-        <url>http://192.168.56.101:8081/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
 
-<repositories>
-    <repository>
-      <id>releases</id>
-      <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
-    </repository>
-  
-   <repository>
-        <id>central</id>
-        <url>http://nexus.sonatype.org</url>  
-        <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-        </releases>
-        <snapshots>
-            <enabled>false</enabled>
-            <updatePolicy>always</updatePolicy>
-        </snapshots>
-    </repository>
-  </repositories>
- 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>releases</id>
-      <url>http://192.168.56.101:8081/nexus/content/groups/public/</url>
-    </pluginRepository>
-  </pluginRepositories>
-  
  
 
   <properties>
